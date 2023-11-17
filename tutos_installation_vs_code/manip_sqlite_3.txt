@@ -1,0 +1,18 @@
+Tuto Problème SQL3
+1. Aller dans la doc de SQLlite: https://www.sqlite.org/download.html
+2. Download dans le binaire de SQLite correspondant à son systeme d'exploitation  ( sqlite-tools-win-x64-3440000.zip pour mon ordi )
+3. Dézipper.
+4. Mettre les 3 fichiers sqldiff.exe , sqlite_3_analyzer.exe et sqlite3.exe à la racine du projet.
+5. Clique droit sur sqlite3.exe
+6. Copy Path
+7. Cliquer sur File --> Preferences   ---> Settings
+8. Appuyer sur l'icone en haut a droite: Open Settings JSON
+9. rajouter cela: 
+{
+    "sqlite.sqlite3": COLLER PATH ( copié à l'étape 6)
+}
+10. Doubler les \ par des \\ ( exemple: "sqlite.sqlite3": "C:\\Users\\adrie\\OneDrive\\Bureau\\GEMA\\tuto_sql_lite\\sqlite3.exe" )
+11. Enregistrer ( Raccourci CTRL + S )
+12. Retourner à l'explorateur de fichier et voir si ca marche ! 
+
+

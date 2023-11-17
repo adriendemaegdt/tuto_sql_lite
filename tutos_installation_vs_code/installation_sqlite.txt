@@ -1,0 +1,8 @@
+
+1- Créer un fichier db.sqlite 
+2- Cliquer sur l'icone extension à gauche de l'écran.
+3- Chercher l'extension SQLite ( avec une plume bleue en icone)
+4- L'installer
+5- Retourner sur l'explorateur de fichier ( premiere icone )
+6- Clique droit sur le fichier db.sqlite precedemment crée.
+7- Ouvrir database / Open database 
