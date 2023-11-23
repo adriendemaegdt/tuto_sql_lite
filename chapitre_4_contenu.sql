@@ -4,32 +4,45 @@
 
 
 --------------------------- INSERT --------------------------
-INSERT INTO mes_reves (
-    pseudo_reveur, 
+INSERT OR IGNORE INTO mes_reves (
+    pseudo_reveur,
+    date, 
     titre, 
     recit, 
-    lucide, 
-    recurrent,
-    date, 
-    emotions
+    cauchemard,
+    lucide,
+    action,
+    emotion
 ) VALUES (
     'kelly slater',
+    '2023-04-22 10:34:23.55',
     'ce bon vieux reve',
     'je surfais sur la vie toute la sainte journée',
     FALSE,
     TRUE,
-    1700232503, 
+    'surfer', 
     'excitation'
 ),(
     'rene la taupe',
+    '2023-10-22 10:34:23.55',
     'la terre est plate',
     'je creusais jusqu"au bout de la terre',
     FALSE,
+    FALSE,
+    'creuser',
+    'emerveillement'
+),(
+    'jeannine',
+    '2023-02-20 10:34:23.55',
+    'l"imbuvable café',
+    'j"essayais de boire un café mais la tasse ne se vidait jamais',
     TRUE,
-    1700232502, 
-    'tristesse'
+    FALSE,
+    'boire',
+    'découragement'
 );
 
+SELECT * FROM mes_reves
 
 --------------------------- UPDATE --------------------------
 UPDATE mes_reves
