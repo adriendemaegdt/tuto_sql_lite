@@ -16,3 +16,6 @@ Tuto Problème SQL3
 12. Retourner à l'explorateur de fichier et voir si ca marche ! 
 
 
+{
+    "sqlite.sqlite3": C:\Users\adrie\OneDrive\Bureau\GEMA\tuto_sql_lite\sqlite3.exe
+}
