@@ -16,6 +16,14 @@ SELECT pseudo_reveur FROM mes_reves WHERE cauchemard = 'TRUE'
 SELECT * FROM mes_reves WHERE recit LIKE '%je%'
 
 
+-- Conditions multiples
+
+-- 1) Trouvez tous les pseudos des reveurs qui ont revé d’une émotion de joie ou d’excitation.
+-- 2) Sélectionnez les rêves lucides qui ont impliqué plus ou 3 personnages.
+-- 3) Trouvez tous les rêves qui ne sont pas des cauchemars et qui ont lieu avant 2010.
+-- 4) Selectionnez les rêves lucides qui impliquent l’action “voler” et qui ont lieu entre 6h et 10 h du matin. 
+-- 5) Trouvez tous les détails des rêves ( id_reve, date, heure, titre) pour l’utilisateur “StarryNightDreamer” qui sont des cauchemards lucides.
+
 
 
 
