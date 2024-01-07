@@ -13,6 +13,7 @@ cursor.executescript("DROP TABLE IF EXISTS movie")
 # On crée la table rêve en executant le fichier CREATE_TABLE_REVES.SQL
 with open('./CREATE_TABLE_REVES.sql', 'r') as sql_file:
     create_table_reves_sql_query = sql_file.read()
+    
 cursor.executescript(create_table_reves_sql_query)
 
 # On rempli la table reves
